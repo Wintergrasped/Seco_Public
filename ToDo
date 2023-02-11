@@ -1,0 +1,5 @@
+TO DO LIST:
+- Add Rental system to the Realestate function
+- Add command to stop all players current rentals
+- Add command to stop renting a given region (For both LandLord and Renter)
+- Add Change ownership commands to rental stopped

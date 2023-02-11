@@ -1,0 +1,207 @@
+name: STSEcon
+main: cc.koffeecreations.main.Main
+version: 2.0.0
+api-version: 1.13
+description: "Wintergrasped's Fully Custom Economy Plugin"
+authors: [Wintergrasped, TotallyNotLurkin]
+depend: [WorldEdit, WorldGuard, dynmap, ActionBarAPI]
+##loadbefore: [BKCommonLib, Train_Carts, CoreProtect]
+commands:
+   convert:
+      description: OP ONLY
+      usage: /convert
+   gmsc:
+      description: OP ONLY
+      usage: /refered {PlayerName}
+   glsc:
+      description: OP ONLY
+      usage: /refered {PlayerName}
+   gfsc:
+      description: OP ONLY
+      usage: /refered {PlayerName}
+   enchanter:
+      description: OP ONLY
+      usage: /refered {PlayerName}
+   magic:
+      description: OP ONLY
+      usage: /refered {PlayerName}
+   refered:
+      description: OP ONLY
+      usage: /refered {PlayerName}
+   resetpot:
+      description: OP ONLY
+      usage: /voted
+   setmotd:
+      description: OP ONLY
+      usage: /voted
+   stats:
+      description: Player Stats
+      usage: /stats
+   spawnofflines:
+      description: OP ONLY
+      usage: /voted
+   craft:
+      description: OP ONLY
+      usage: /voted
+   etable:
+      description: OP ONLY
+      usage: /voted
+   map:
+      description: OP ONLY
+      usage: /voted
+   voted:
+      description: OP ONLY
+      usage: /voted
+   syncdb:
+      description: OP ONLY
+      usage: /syncdb
+   perks:
+      description: Displays a list of perks
+      usage: /perks
+   discord:
+      description: Displays discord Link
+      usage: /discord
+   updatemap:
+      description: OP ONLY updates dynmap
+      usage: /updatemap
+   pc:
+      description: OP ONLY forces a payCycle
+      usage: /pc
+   setzone:
+      description: sets zoning of a property
+      usage: /setzone <Property Name> <Zoning>
+   buyhomesets:
+      description: Buys permission to set unlimited homes
+      usage: /buyhomesets
+   buyhealth:
+      description: Buy 1 extra heart
+      usage: /buyhealth
+   buyfly:
+      description: Buy permission to use /fly
+      usage: /buyfly
+   buyechest:
+      description: Buy acsess to /enderchest
+      usage: /buyechest
+   econ:
+      description: This is a demo command.
+      usage: /econ
+   setcity:
+      description: Op Only
+      usage: /setcity
+   buystorage:
+      description: Op Only
+      usage: /buystorage
+   voted:
+      description: This is a demo command.
+      usage: /voted
+   wiki:
+      description: Shows a link to the Wiki
+      usage: /wiki
+   pmine:
+      description: This is a demo command.
+      usage: /voted
+   web:
+      description: This is a demo command.
+      usage: /web
+   start:
+      description: This is a demo command.
+      usage: /start
+   vt:
+      description: This is a demo command.
+      usage: /vt
+   setworth:
+      description: This is a demo command.
+      usage: /setworth
+   worth:
+      description: This is a demo command.
+      usage: /worth
+   sell:
+      description: This is a demo command.
+      usage: /sell
+   psp:
+      description: check price of player stocks
+      usage: /psp
+   se:
+      description: Buy and sell player stocks
+      usage: /ps
+   wwa:
+      description: N/A
+      usage: /wwa
+   ecodebug:
+      description: N/A
+      usage: /ecodebug
+   psh:
+      description: Displays the help page for PlayerStocks
+      usage: /psh
+   stocks:
+      description: Stocks
+      usage: /psh
+   ccs:
+      description: No
+      usage: /psh
+   wcsp:
+      description: No
+      usage: /psh
+   wcsa:
+      description: No
+      usage: /psh
+   wcslp:
+      description: No
+      usage: /psh
+   addrental:
+      description: No
+      usage: /psh
+   seco:
+      description: No
+      usage: /psh
+   bl:
+      description: No
+      usage: /bl
+   markets:
+      description: No
+      usage: /bl
+   setvalue:
+      description: Must Be Holding the Item to set the value of
+      usage: /setvalue <Value>
+   getvalue:
+      description: Must have a worldedit selcation
+      usage: /setvalue 
+   value:
+      description: Tells value of the block you are holding
+      usage: /value 
+   buyhouse:
+      description: Uh....
+      usage: /buyhouse 
+   buywarehouse:
+      description: Uh....
+      usage: /buyhouse 
+   buyfactory:
+      description: Uh....
+      usage: /buyhouse 
+   mine:
+      description: Uh....
+      usage: /buyhouse 
+   trust:
+      description: Trusts the named player
+      usage: /trust <PlayerName> 
+   untrust:
+      description: Trusts the named player
+      usage: /untrust <PlayerName>
+   p:
+      description: NOT OP ONLY
+      usage: /p
+   spb:
+      description: OP ONLY
+      usage: /spb
+   dungeon:
+      description: OP ONLY
+      usage: /spb
+   staffpass:
+      description: OP ONLY
+      usage: /staffpass
+   setclass:
+      description: Sets Your Class
+      usage: /setclass
+   spawnwand:
+      description: Sets Your Class
+      usage: /setclass

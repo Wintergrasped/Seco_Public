@@ -1,0 +1,48 @@
+CityRadius: 5000
+CityData:
+  Center:
+    X: 0
+    Y: 0
+    Z: 0
+    World: World
+FirstStart: true
+MaxDividen: 2.50
+SalesTax: 9.2
+WareHouseCost: 1000000
+FactoryCost: 10000000
+WareHouseWorkers: 10
+FactoryWorkers: 20
+PayCycleDivider: 4
+TrainingDuration: 4
+MySQL:
+ IP: ""
+ Port: 0
+ DataBase: ""
+ User: ""
+ Password: ""
+PlayerStocks:
+ BasePrice: 150
+ JoinMultiplyer: 1.02
+ PlayerMultiplyer: 1.03
+Economy:
+ Prices:
+  Business: 2500000
+  Corporation: 1250000
+ServerData:
+  PayCycle: 720000
+  CostToHire: 100000
+  StockPrice: 150
+  MaxBusinessSize: 21
+  LeaveModifier: 1.15
+  Joins: 1
+  PSJM: 1.003
+  PSM: 1.002
+  PSMD: 1.05
+  PSP: 0.0
+  PLM: 0.0003
+  IndustryPriceStep: 0.001
+  IndustryPriceDecrement: 0.001
+  FarmingVolume: 0
+  LoggingVolume: 0
+  MiningVolume: 0
+  
